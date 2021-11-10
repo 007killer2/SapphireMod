@@ -1,0 +1,12 @@
+itemGroup.sapphire_tab=Sapphire Mod
+item.sapphire_helm.name=Сапфировый шлем
+item.sapphire_chest.name=Сапфировый нагрудник
+item.sapphire.name=Сапфир
+tile.j104.name=Блок J104
+tile.sapphire_ore.name=Сапфировая руда
+tile.sapphire_glass.name=Сапфировое стекло
+tile.sapphire_torch.name=Сапфировый факел
+tile.sapphire_block.name=Сапфировый блок
+
+sapphire_helm.desc=Данный шлем наносит единицу урона носителю если присесть
+sapphire_chest.desc=Данный нагрудник убивает носителя, если тот загорается
