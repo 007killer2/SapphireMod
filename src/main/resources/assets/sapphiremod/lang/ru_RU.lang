@@ -8,5 +8,5 @@ tile.sapphire_glass.name=Сапфировое стекло
 tile.sapphire_torch.name=Сапфировый факел
 tile.sapphire_block.name=Сапфировый блок
 
-sapphire_helm.desc=Данный шлем наносит единицу урона носителю если присесть
-sapphire_chest.desc=Данный нагрудник убивает носителя, если тот загорается
+item.sapphire_armor_0.desc=Данный шлем наносит единицу урона носителю если присесть
+item.sapphire_armor_1.desc=Данный нагрудник убивает носителя, если тот загорается

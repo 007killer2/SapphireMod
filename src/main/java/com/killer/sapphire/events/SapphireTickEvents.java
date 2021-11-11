@@ -1,6 +1,6 @@
 package com.killer.sapphire.events;
 
-import com.killer.sapphire.items.SapphireHelm;
+import com.killer.sapphire.items.SapphireArmor;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
 import net.minecraft.entity.player.EntityPlayer;
@@ -22,7 +22,7 @@ public class SapphireTickEvents {
     }
 
     public boolean checkHelm(EntityPlayer player) {
-        if (player.getEquipmentInSlot(4) != null && player.getEquipmentInSlot(4).getItem() instanceof SapphireHelm) {
+        if (player.getEquipmentInSlot(4) != null && player.getEquipmentInSlot(4).getItem() instanceof SapphireArmor) {
             //System.out.println("SaphireEvents.CheckHelm");
             return true;
         } else {

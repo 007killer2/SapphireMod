@@ -5,7 +5,7 @@ import com.killer.sapphire.events.SapphireEvents;
 import com.killer.sapphire.events.SapphireTickEvents;
 import com.killer.sapphire.items.ItemSapphire;
 import com.killer.sapphire.items.SapphireChest;
-import com.killer.sapphire.items.SapphireHelm;
+import com.killer.sapphire.items.SapphireArmor;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.IWorldGenerator;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -43,8 +43,8 @@ public class SapphireMod {
     };
 
     public static final Item ITEM_SAPPHIRE = new ItemSapphire();
-    public static final Item SAPPHIRE_HELM = new SapphireHelm(ItemArmor.ArmorMaterial.DIAMOND, 0, 0);
-    public static final Item SAPPHIRE_CHEST = new SapphireChest(ItemArmor.ArmorMaterial.DIAMOND, 0, 1);
+    public static final Item SAPPHIRE_HELM = new SapphireArmor(ItemArmor.ArmorMaterial.DIAMOND, 0, 0);
+    public static final Item SAPPHIRE_CHEST = new SapphireArmor(ItemArmor.ArmorMaterial.DIAMOND, 0, 1);
     public static final Block SAPPHIRE_BLOCK = new BlockSapphire(Material.rock);
     public static final Block BLOCK_J104 = new BlockJ104(Material.rock);
     public static final Block SAPPHIRE_ORE = new BlockSapphireOre(Material.rock);

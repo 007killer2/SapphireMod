@@ -1,6 +1,6 @@
 package com.killer.sapphire.events;
 
-import com.killer.sapphire.items.SapphireChest;
+import com.killer.sapphire.items.SapphireArmor;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
@@ -28,7 +28,7 @@ public class SapphireEvents {
 
 
     public boolean checkChest(EntityPlayer player) {
-        if (player.getEquipmentInSlot(3) != null && player.getEquipmentInSlot(3).getItem() instanceof SapphireChest) {
+        if (player.getEquipmentInSlot(3) != null && player.getEquipmentInSlot(3).getItem() instanceof SapphireArmor) {
             //System.out.println("SaphireEvents.checkChest");
             return true;
         } else {
