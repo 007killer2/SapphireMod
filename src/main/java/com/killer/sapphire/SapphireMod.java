@@ -12,6 +12,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockStairs;
 import net.minecraft.block.BlockTorch;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -50,6 +51,7 @@ public class SapphireMod {
     public static final Block SAPPHIRE_ORE = new BlockSapphireOre(Material.rock);
     public static final Block SAPPHIRE_GLASS = new BlockSapphireGlass(Material.glass);
     public static final BlockTorch SAPPHIRE_TORCH = new SapphireTorch();
+    public static final BlockStairs TEST = new BlockTest(SAPPHIRE_BLOCK, 1);
 
     @EventHandler
     public void preinit(FMLPreInitializationEvent event) {
@@ -62,6 +64,7 @@ public class SapphireMod {
         GameRegistry.registerBlock(SAPPHIRE_GLASS, "sapphire_glass");
         GameRegistry.registerBlock(SAPPHIRE_TORCH, "sapphire_torch");
         GameRegistry.registerBlock(SAPPHIRE_BLOCK, "sapphire_block");
+        GameRegistry.registerBlock(TEST, "test");
         GameRegistry.registerTileEntity(TileSapphireTorch.class, "TileSapphireTorch");
         GameRegistry.registerTileEntity(TileJ104.class, "TileJ104");
         GameRegistry.addShapelessRecipe(new ItemStack(SAPPHIRE_GLASS, 4), new Object[] {Blocks.glass, ITEM_SAPPHIRE});
